@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { DepartmentListComponent } from './department-list/department-list.component';
 import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { DepartmentDetailsComponent } from './department-details/department-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     routingComponents,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    DepartmentDetailsComponent
   
   ],
   imports: [
